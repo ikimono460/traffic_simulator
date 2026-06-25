@@ -11,8 +11,8 @@ timestamp: 2026-06-25T15:55:00+09:00
 
 ## 構成コンセプト
 
-* [OSM地図データ (osm_map.md)](osm_map.md): OpenStreetMapからダウンロードした生データと取得手順。
-* [交差点データとマッピングテーブル (intersections.md)](intersections.md): 実世界の交差点データ（断面交通量観測点）とSUMOノードの紐付けテーブル。
+* [OSM地図データ (osm_map.md)](./osm_map.md): OpenStreetMapからダウンロードした生データと取得手順。
+* [交差点データとマッピングテーブル (intersections.md)](./intersections.md): 実世界の交差点データ（断面交通量観測点）とSUMOノードの紐付けテーブル。
 
 ## データフォルダの物理構成
 * `city-akita/data/raw/akita_center.osm`: 対象エリアの生のOSMデータ。

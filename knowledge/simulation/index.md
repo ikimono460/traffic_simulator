@@ -11,7 +11,7 @@ timestamp: 2026-06-25T15:55:00+09:00
 
 ## 構成コンセプト
 
-* [シミュレーション設定と起動スクリプト (sumo_sim.md)](sumo_sim.md): akita.sumocfgの構成項目と、TraCI APIによる時間同期的な信号制御ロジックの動作解説。
+* [シミュレーション設定と起動スクリプト (sumo_sim.md)](./sumo_sim.md): akita.sumocfgの構成項目と、TraCI APIによる時間同期的な信号制御ロジックの動作解説。
 
 ## シミュレーションフォルダの物理構成
 * `city-akita/sim/akita.sumocfg`: 道路網（network/）、交通需要（demand/）、シミュレーション設定を一つにまとめたSUMO構成ファイル。

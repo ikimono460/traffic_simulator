@@ -11,7 +11,7 @@ timestamp: 2026-06-25T15:55:00+09:00
 
 ## 構成コンセプト
 
-* [SUMO道路網データの構築 (road_network.md)](road_network.md): netconvertを用いたビルド処理および手動パッチ適用の説明。
+* [SUMO道路網データの構築 (road_network.md)](./road_network.md): netconvertを用いたビルド処理および手動パッチ適用の説明。
 
 ## ネットワークフォルダの物理構成
 * `city-akita/network/akita.net.xml`: コンパイルされたSUMO道路網ファイル。

@@ -11,7 +11,7 @@ timestamp: 2026-06-25T15:55:00+09:00
 
 ## 構成コンセプト
 
-* [断面交通量とルート・フロー需要 (traffic_flow.md)](traffic_flow.md): オープンデータのフォーマット、車両フロー算出、`akita.rou.xml` の生成ロジックの説明。
+* [断面交通量とルート・フロー需要 (traffic_flow.md)](./traffic_flow.md): オープンデータのフォーマット、車両フロー算出、`akita.rou.xml` の生成ロジックの説明。
 
 ## 交通需要フォルダの物理構成
 * `city-akita/demand/akita.rou.xml`: 生成されたSUMO用ルート・フロー定義ファイル（シミュレーション入力用）。
