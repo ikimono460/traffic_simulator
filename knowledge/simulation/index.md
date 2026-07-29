@@ -12,6 +12,7 @@ timestamp: 2026-06-25T15:55:00+09:00
 ## 構成コンセプト
 
 * [シミュレーション設定と起動スクリプト (sumo_sim.md)](./sumo_sim.md): akita.sumocfgの構成項目と、TraCI APIによる時間同期的な信号制御ロジックの動作解説。
+* [評価指標と計測車両 (evaluation.md)](./evaluation.md): 交通渋滞の評価指標（平均速度・車両数グラフ）および計測用プローブカーの定義と結果出力手順。
 
 ## シミュレーションフォルダの物理構成
 * `city-akita/sim/akita.sumocfg`: 道路網（network/）、交通需要（demand/）、シミュレーション設定を一つにまとめたSUMO構成ファイル。

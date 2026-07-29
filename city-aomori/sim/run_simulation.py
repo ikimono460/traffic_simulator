@@ -133,7 +133,7 @@ def run_simulation(target_date="2026/05/08", start_hour=8, use_gui=True):#変更
         
     control_data = load_signal_control(target_date, start_hour)
     
-    sumo_cmd = [binary_path, "-c", config_file, "--ignore-route-errors", "true"]
+    sumo_cmd = [binary_path, "-c", config_file, "--ignore-route-errors", "true", "--threads", "8"]
     
     print(f"Starting SUMO: {' '.join(sumo_cmd)}")
     traci.start(sumo_cmd)

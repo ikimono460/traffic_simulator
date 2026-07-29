@@ -28,3 +28,7 @@ node_modules/\@puppeteer/browsers/
 node_modules/chromium-bidi/
 
 node_modules/
+
+# Simulation outputs
+city-aomori/output/*.xml
+city-aomori/output/*.png

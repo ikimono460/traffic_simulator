@@ -143,7 +143,7 @@ def process_traffic(target_date="2026/05/08", start_hour=8, duration_hours=1):
     os.makedirs(os.path.dirname(output_rou), exist_ok=True)
     with open(output_rou, 'w', encoding='utf-8') as f:
         f.write('<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">\n')
-        f.write('    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="13.89" guiShape="passenger" lcCooperative="1.0" lcSpeedGain="1.0" lcStrategic="1.0" latAlignment="center" minGapLat="0.6"/>\n\n')
+        f.write('    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="13.89" guiShape="passenger" lcCooperative="1.5" lcSpeedGain="1.0" lcStrategic="1.0" lcImpatience="1.0" lcAssertive="1.5" lcPushy="1" latAlignment="center" minGapLat="0.6"/>\n\n')
         
         for item in flows:
             f.write(item + "\n")
