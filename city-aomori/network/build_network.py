@@ -32,6 +32,7 @@ def build_network():
         "--no-turnarounds",
         "--junctions.join",
         "--keep-edges.by-vclass", "passenger",
+        "--ignore-widths",
     ]
     
     # パッチファイルの有無を確認して引数に追加
