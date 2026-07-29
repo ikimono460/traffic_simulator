@@ -13,6 +13,7 @@ timestamp: 2026-06-25T15:55:00+09:00
 
 * [信号制御・レーン接続調整プレイブック (signal_tuning.md)](./signal_tuning.md): 右折専用レーン指定、信号有無の変更、マッピング情報の直接補正手順の説明。
 * [交差点パッチWebエディタ操作マニュアル (editor_instructions.md)](./editor_instructions.md): Webエディタによる直感的な車線設定、右折レーン形式設定、車線別流出先定義の編集手順の説明。
+* [指定道路のピンポイント通行止め手順 (road_closure.md)](./road_closure.md): TraCIを利用した特定道路の動的通行止め・時間解除設定（`data/road_closures.json`）の指定・運用手順。
 
 ## プレイブックに関連するパッチパス
 * `city-akita/data/patch/nodes.nod.xml`: 信号あり/なし・優先道路タイプの変更定義。
