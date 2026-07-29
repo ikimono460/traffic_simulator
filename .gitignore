@@ -29,6 +29,9 @@ node_modules/chromium-bidi/
 
 node_modules/
 
+city-aomori/resources/typeB_aomori_2026_05/*
+city-aomori/resources/typeC_aomori_2026_05/*
+
 # Simulation outputs
 city-aomori/output/*.xml
 city-aomori/output/*.png
